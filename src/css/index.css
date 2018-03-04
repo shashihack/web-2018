@@ -1,8 +1,3 @@
-@font-face{
-  font-family: vidaloka;
-  src:url(https://fonts.googleapis.com/css?family=Vidaloka);
-}
-
 html, body {
   background: black;
   height: 100%;
@@ -10,7 +5,11 @@ html, body {
   color: white;
   font-family: 'Roboto Mono', monospace;
 }
-
+@media screen and (max-width: 560px) and (min-width: 320px) {
+ html{
+   font-size: 15px !important;
+ }
+}
 .team-ext, .team-ext:hover, .team-ext:focus {
   color: #FF6E2C;
 }
@@ -55,7 +54,6 @@ html, body {
 
 .primary-color {
   color: #FF6E2C;
-  padding-bottom: 5px;
 }
 
 .primary-color-border {
