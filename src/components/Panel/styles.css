@@ -62,6 +62,6 @@
   display: flex;
   justify-content: space-between;
 }
-.uk-card-body {
-  padding: 30px 30px !important;
+.uk-card.uk-card-body.event-panel {
+    padding: 30px 30px !important;
 }
